@@ -1,0 +1,14 @@
+--What we think went well--
+-> The report is concise and after every optimization that they tried, they backed it up with a graph to show it properly. 
+
+--What we think they could improve on--
+->They need to add the details of the compiler flags they used. I could not find it in the report.
+->Need to add details about any kernel optimization they performed, and the order of looping to effect the memory access pattern.
+->Need to focus on optimizing the main kernel for a better memory access to see any difference because of the compiler flags
+->Must try out more block size variations, since in the class we saw how the performance dips for multiples of 2 due to cache misses. 
+->The report mentioned about the block sizes that can fit L1, L2 and L3 caches but it does not use it in any way.
+->Must try out more optimization methods like Aligned memory, multi-level blocking, order of looping, and play with more compiler flags.
+
+--Anything Else--
+->Not very sure what exactly was done in the Copy Optimization part since the report did not mention it.
+->Liked the performance enhancement factor added in the conclusion.
